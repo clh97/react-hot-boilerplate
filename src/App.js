@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
+import 'normalize.css';
 
-export default class App extends Component {
-  render() {
-    return (
-      <h1>Hello, world.</h1>
-    );
-  }
+import './App.css';
+
+class App extends Component {
+	render() {
+		return (
+			<div className='App'>
+				
+			</div>
+		);
+	}
 }
+
+export default App;
